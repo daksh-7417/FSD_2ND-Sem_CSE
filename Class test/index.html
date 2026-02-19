@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online feedback form</title>
+    <style>
+        .table {
+            border: 2px;
+            border-color: rgb(192, 51, 51);
+            width: 2px;
+            display: flex;
+            justify-content: center;
+            padding:20px;
+            margin:auto;
+            border-radius: 8px;
+        }
+        .box {
+            border: 4px;
+            border-color: black;   
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Online Feedback Form</h1>
+    <table style="border:8px;" class="table">
+        <div class="box" style="border:auto;">
+            <form>
+                <tr>
+                    <td>
+                        <label for="name">
+                            Name: <input type="text" name="name" placeholder="Enter the name">
+                        </label>
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        <label for="Email">
+                            Email: <input type="Email" Email="Email" placeholder="Enter the email">
+                        </label>
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        <label for="textarea">
+                            Feedback: <textarea name="textarea" placeholder="Give your feedback here" rows="5" columns="40"></textarea>
+                        </label>
+                    </td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+                    </td>
+                </tr>                    
+            </form>
+        </div>
+    </table>
+
+</body>
+</html>
