@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result System</title>
+    <link rel="stylesheet" href="assing.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Result Calculator</h2>
+        
+        <label>Student Name</label>
+        <input type="text" id="name"><br>
+
+        <label>Roll Number</label>
+        <input type="text" id="roll"><br>
+
+        <label>Marks in Math</label>
+        <input type="number" id="math"><br>
+
+        <label>Marks in Science</label>
+        <input type="number" id="science"><br>
+
+        <label>Marks in English</label>
+        <input type="number" id="english"><br>
+
+        <button onclick="addStudent()">Add Student</button>
+        <button onclick="displayStudents()">Display All Students</button>
+        <button onclick="calculateResults()">Calculate Results</button>
+        <button onclick="showAbove80()">Show Students Above 80 Avg</button>
+        <button onclick="showFailed()">Show Failed Students</button>
+        <button onclick="countStudents()">Count Students</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="assign.js"></script>
+</body>
+</html>
