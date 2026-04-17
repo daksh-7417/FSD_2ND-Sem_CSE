@@ -57,4 +57,13 @@ console.log(divide(10,3));
 let square = x => x*x;
 console.log(square(4));
 
+//filter on array 
+let evenNumbers = [2,3,4,5,1];
+let filteredEvenNumbers = evenNumbers.filter(num => num%2===0);
+console.log(filteredEvenNumbers);
+
+let sum = [1,2,3,4,5];
+let total = sum.reduce((accumulator,currentValue)=>accumulator+currentValue,0);
+console.log(total);
+
 
