@@ -1,0 +1,22 @@
+body { 
+    font-family: sans-serif; 
+    margin: 40px;
+    background-color: aqua;
+ }
+
+.container {
+    max-width: 300px; 
+ }
+
+input {
+    width: 100%; 
+    padding: 8px; 
+    margin: 10px 0;
+    box-sizing: border-box; 
+}
+
+.result {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    color: #2c3e50; 
+}

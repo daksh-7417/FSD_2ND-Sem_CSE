@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamic Sum Calculator</title>
+    <link rel="stylesheet" href="index.css">       
+    
 </head>
 <body>
-    <h1>Class Test</h1>
+
+<div class="container">
+    <h2>Sum of 1 to N</h2>
+    <label for="numberInput">Enter a number (N):</label>
+    <input type="number" id="numberInput" min="1" placeholder="Type a number..." oninput="calculateSum()">
+    
+    <div class="result">
+        Sum: <span id="output">0</span>
+    </div>
+</div>
+
+<script src="clss.js">
+</script>
+
 </body>
 </html>
